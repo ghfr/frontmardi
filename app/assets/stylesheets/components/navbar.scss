@@ -1,0 +1,50 @@
+nav {
+
+height: 90px;
+background-color: #2F9599;
+color: red;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+
+nav div {
+  display: flex;
+  align-items: center;
+
+}
+
+nav img {
+  height:   30px;
+       border-radius: 50%;
+
+
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+
+
+nav a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none; 
+ padding-right:15px;
+ padding-left:15px;
+
+}
+
+
+nav li a:hover{
+  font-weight: bold;
+  font-style: italic;
+  
+}
